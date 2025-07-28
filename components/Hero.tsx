@@ -163,7 +163,7 @@ export default function Hero() {
 
               {/* Profile Image */}
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-transparent">
-                <Image src="/placeholder.svg?height=400&width=400" alt="Profile" fill className="object-cover" />
+                <Image src="/my.png" alt="Profile" fill className="object-cover" />
               </div>
 
               {/* Floating Elements */}
