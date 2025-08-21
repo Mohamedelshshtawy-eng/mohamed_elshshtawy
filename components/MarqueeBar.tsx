@@ -36,7 +36,7 @@ export default function MarqueeBar() {
   if (!hasMounted) return null
 
   return (
-    <div ref={containerRef} className="absolute bottom-0 left-0 right-0 bg-black/90 overflow-hidden py-3 z-50 border-t border-cyan-500">
+    <div ref={containerRef} className="absolute bottom-0 left-0 right-0 bg-black/90 overflow-hidden py-3 z-0 border-t border-cyan-500">
       <div
         ref={contentRef}
         className="flex gap-12 text-cyan-300 text-lg sm:text-xl md:text-2xl font-semibold whitespace-nowrap w-max"

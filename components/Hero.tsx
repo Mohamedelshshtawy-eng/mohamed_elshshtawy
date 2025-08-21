@@ -196,6 +196,7 @@ import Image from 'next/image'
 import gsap from 'gsap'
 import MarqueeBar from './MarqueeBar'
 import dynamic from 'next/dynamic'
+import ProfileSlider from './ProfileSlider'
 export default function Hero() {
   const mountRef = useRef<HTMLDivElement>(null)
   const marqueeRef = useRef<HTMLDivElement>(null)
@@ -356,9 +357,9 @@ export default function Hero() {
               </motion.div>
 
               {/* Profile Image */}
-              <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-transparent">
-                <Image src="/my.png" alt="Profile" fill className="object-cover" />
-              </div>
+              {/* <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-transparent"> */}
+              <ProfileSlider/>
+              {/* </div> */}
 
               {/* Floating Elements */}
               <motion.div

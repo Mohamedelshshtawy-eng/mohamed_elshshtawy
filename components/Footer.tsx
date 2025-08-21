@@ -89,7 +89,7 @@ export default function Footer() {
           >
             <h4 className="text-lg font-semibold mb-4 text-white">Get In Touch</h4>
             <div className="space-y-2 text-slate-400">
-              <p>mohamedelshshtwy745@gmail.com</p>
+              <p>mohamedelshshtawy745@gmail.com</p>
               <p>+201026058663</p>
               <p>Egypt,Elgarbya</p>
             </div>
@@ -104,7 +104,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center"
         >
-          <p className="text-slate-400 text-sm">© {currentYear}  Mohamed Elshshtwy. All rights reserved.</p>
+          <p className="text-slate-400 text-sm">© {currentYear}  Mohamed Elshshtawy. All rights reserved.</p>
           <p className="text-slate-400 text-sm flex items-center gap-1 mt-2 md:mt-0">
             Made with <Heart className="w-4 h-4 text-red-500" /> using Next.js & Three.js
           </p>

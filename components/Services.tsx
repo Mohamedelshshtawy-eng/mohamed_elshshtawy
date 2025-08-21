@@ -57,9 +57,9 @@ export default function Services() {
 
   const languages = [
     { name: "JavaScript", level: 95 },
-    { name: "Python", level: 80 },
+    { name: "Python", level: 95 },
     { name: "Java", level: 95 },
-    { name: "GoLang", level: 80 },
+    { name: "GoLang", level: 85 },
     { name: "TypeScript", level: 85 },
   ]
 
