@@ -25,11 +25,13 @@ export default function ProfileSlider() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="relative inset-0 "
+          className="absolute inset-0 "
         >
           <Image
             src={images[index]}
             alt="Profile"
+            width={320}
+            height={320}
             fill
             className="object-cover rounded-full"
             priority
