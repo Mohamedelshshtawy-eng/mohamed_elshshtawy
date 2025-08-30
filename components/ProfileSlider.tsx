@@ -31,7 +31,7 @@ export default function ProfileSlider() {
             src={images[index]}
             alt="Profile"
             fill
-            className="object-cover rounded-full"
+            className="object-cover rounded-full translate-y-[-5%]"
             priority
           />
         </motion.div>
