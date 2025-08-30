@@ -33,7 +33,6 @@ export default function ProfileSlider() {
             fill
             className="object-cover rounded-full"
             priority
-            style={{ transform: "translateY(-5%)" }}
           />
         </motion.div>
       </AnimatePresence>
