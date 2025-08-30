@@ -26,7 +26,7 @@ export default function Footer() {
           >
             <h3 className="text-2xl font-bold mb-4">
               <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-      Mohamed Elshshtwy
+      Mohamed Elshshtawy
               </span>
             </h3>
             <p className="text-slate-400 mb-4">

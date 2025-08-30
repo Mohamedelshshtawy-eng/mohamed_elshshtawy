@@ -30,7 +30,6 @@ export default function ProfileSlider() {
           <Image
             src={images[index]}
             alt="Profile"
-            fill
             className="object-cover rounded-full"
             priority
           />
