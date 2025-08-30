@@ -25,7 +25,7 @@ export default function ProfileSlider() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="inset-0 relative"
+          className="relative inset-0 "
         >
           <Image
             src={images[index]}
